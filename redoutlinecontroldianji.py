@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 Last login: Thu Apr  4 20:47:34 on console
 caimingyangdeMacBook-Pro:~ caimingyang$ history|grep ssh
   188  ssh root@172.27.129.250
@@ -410,6 +412,7 @@ pi@raspberrypi:~/caimingyang/dianji $
 pi@raspberrypi:~/caimingyang/dianji $ 
 pi@raspberrypi:~/caimingyang/dianji $ 
 pi@raspberrypi:~/caimingyang/dianji $ more redoutlinecontroldianji.py
+>>>>>>> e60d9178bbcbb61aa567a411a4d19a70070e32a5
 #!/usr/bin/env python
 #########################################################
 #	File name: stepMotor.py
@@ -591,6 +594,8 @@ if __name__ == '__main__':
 	                 exec_cmd(l,r,data[2])
 	except KeyboardInterrupt:
 	    GPIO.cleanup();
+<<<<<<< HEAD
+=======
 pi@raspberrypi:~/caimingyang/dianji $  
 pi@raspberrypi:~/caimingyang/dianji $ 
 pi@raspberrypi:~/caimingyang/dianji $ pwd
@@ -1180,3 +1185,4 @@ if __name__ == '__main__':
                          exec_cmd(l,r,data[2])
         except KeyboardInterrupt:
             GPIO.cleanup();
+>>>>>>> e60d9178bbcbb61aa567a411a4d19a70070e32a5
